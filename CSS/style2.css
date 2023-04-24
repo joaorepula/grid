@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-template-columns: 20% 30% 20%;
+}
+.item{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}

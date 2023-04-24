@@ -1,0 +1,30 @@
+O que é Flexbox?
+
+Flexbox é um sistema de layout em CSS que permite criar layouts flexíveis e responsivos para suas páginas da web. Ele é usado para distribuir elementos em uma linha ou coluna e controlar o tamanho, posição e ordem dos elementos em relação a seus contêineres. O Flexbox é especialmente útil para criar layouts responsivos em dispositivos móveis.
+Propriedades Flexbox
+
+Existem várias propriedades Flexbox que você pode usar para controlar o layout de seus elementos. Aqui estão algumas das propriedades mais comuns:
+display
+
+A propriedade "display" é usada para definir um elemento como um contêiner flexível. Ela deve ser definida como "flex" ou "inline-flex".
+flex-direction
+
+A propriedade "flex-direction" é usada para definir a direção principal em que os elementos são distribuídos no contêiner. Ela pode ser definida como "row" para distribuir os elementos horizontalmente (da esquerda para a direita), "column" para distribuir os elementos verticalmente (de cima para baixo), "row-reverse" para distribuir os elementos horizontalmente, mas em ordem inversa, e "column-reverse" para distribuir os elementos verticalmente, mas em ordem inversa.
+justify-content
+
+A propriedade "justify-content" é usada para alinhar os elementos ao longo do eixo principal. Ela pode ser definida como "flex-start" para alinhar os elementos no início do contêiner, "flex-end" para alinhar os elementos no final do contêiner, "center" para alinhar os elementos no centro do contêiner, "space-between" para distribuir os elementos uniformemente com espaço extra entre eles e "space-around" para distribuir os elementos uniformemente com espaço extra em torno deles.
+align-items
+
+A propriedade "align-items" é usada para alinhar os elementos ao longo do eixo transversal. Ela pode ser definida como "flex-start" para alinhar os elementos no início do contêiner, "flex-end" para alinhar os elementos no final do contêiner, "center" para alinhar os elementos no centro do contêiner, "baseline" para alinhar os elementos na linha de base e "stretch" para esticar os elementos para preencher todo o espaço disponível.
+flex-wrap
+
+A propriedade "flex-wrap" é usada para definir se os elementos devem ser distribuídos em uma única linha ou em várias linhas. Ela pode ser definida como "nowrap" para distribuir os elementos em uma única linha, "wrap" para distribuir os elementos em várias linhas e "wrap-reverse" para distribuir os elementos em várias linhas, mas em ordem inversa.
+align-content
+
+A propriedade "align-content" é usada para alinhar as linhas ao longo do eixo transversal quando há várias linhas no contêiner. Ela pode ser definida como "flex-start" para alinhar as linhas no início do contêiner, "flex-end" para alinhar as linhas no final do contêiner, "center" para alinhar as linhas no centro do contêiner, "
+
+O sinal ">" é um seletor de filho direto em CSS. Quando usado em um seletor, ele seleciona apenas os elementos filhos diretos do elemento pai especificado.
+
+No exemplo dado, ".flex-container>div" seleciona apenas os elementos "div" que são filhos diretos do elemento com a classe "flex-container". Isso significa que quaisquer outros elementos que possam estar dentro do elemento pai (por exemplo, elementos netos ou bisnetos) não serão afetados pelas regras de estilo especificadas neste seletor.
+
+Portanto, a utilização do seletor ">" neste caso é útil para aplicar as regras de estilo apenas aos elementos "div" que são diretamente filhos do elemento com a classe "flex-container", permitindo uma maior precisão na aplicação de estilos.
