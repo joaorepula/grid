@@ -1,10 +1,30 @@
-.container {
-    display: grid;
-    grid-template-columns: 20% 30% 20%;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.item{
-    background-color: antiquewhite;
-    border: 2px solid black;
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 30px;
+}
+
+.item-1, .item-4{
+    grid-column: 1 / 5;
+    background-color: cornflowerblue;
+    border: 1px solid black;
     border-radius: 5px;
-    padding: 10px;
+    padding-left: 10px;
+}
+
+.item-2{
+    border-right: 1px solid black;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.item-3{
+    grid-column: 2 / 5;
+    text-align: justify;
 }
