@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+.itens{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.item-1{
+    background-color:chartreuse;
+    grid-column: 1 / 4;
+}
+
+.item-2{
+    background-color:orange;
+}
+
+.item-3{
+    background-color: cornflowerblue;
+}
+
+.item-4{
+    background-color: crimson;
+}
+
+.item-5{
+    background-color:darkgreen;
+}
+
+.item-6{
+    background-color: bisque;
+    grid-column: 3;
+    grid-row: 3;
+}
